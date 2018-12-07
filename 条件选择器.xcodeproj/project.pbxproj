@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0B48C8B21B95123008C7B7E /* MultiSectionFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B48C8A21B95123008C7B7E /* MultiSectionFlowLayout.m */; };
 		D04F937621B8DC180035BB48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D04F937521B8DC180035BB48 /* AppDelegate.m */; };
 		D04F937921B8DC180035BB48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D04F937821B8DC180035BB48 /* ViewController.m */; };
 		D04F937C21B8DC180035BB48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04F937A21B8DC180035BB48 /* Main.storyboard */; };
 		D04F937E21B8DC190035BB48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04F937D21B8DC190035BB48 /* Assets.xcassets */; };
 		D04F938121B8DC190035BB48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04F937F21B8DC190035BB48 /* LaunchScreen.storyboard */; };
 		D04F938421B8DC190035BB48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D04F938321B8DC190035BB48 /* main.m */; };
+		D04F938C21B8DE240035BB48 /* ClassFlowlayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D04F938B21B8DE240035BB48 /* ClassFlowlayout.m */; };
+		D04F938F21B91AE00035BB48 /* SingleFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D04F938E21B91AE00035BB48 /* SingleFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B0B48C8921B95123008C7B7E /* MultiSectionFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiSectionFlowLayout.h; sourceTree = "<group>"; };
+		B0B48C8A21B95123008C7B7E /* MultiSectionFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiSectionFlowLayout.m; sourceTree = "<group>"; };
 		D04F937121B8DC180035BB48 /* 条件选择器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "条件选择器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04F937421B8DC180035BB48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D04F937521B8DC180035BB48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +31,10 @@
 		D04F938021B8DC190035BB48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D04F938221B8DC190035BB48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D04F938321B8DC190035BB48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D04F938A21B8DE240035BB48 /* ClassFlowlayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassFlowlayout.h; sourceTree = "<group>"; };
+		D04F938B21B8DE240035BB48 /* ClassFlowlayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassFlowlayout.m; sourceTree = "<group>"; };
+		D04F938D21B91AE00035BB48 /* SingleFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleFlowLayout.h; sourceTree = "<group>"; };
+		D04F938E21B91AE00035BB48 /* SingleFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,12 @@
 				D04F937F21B8DC190035BB48 /* LaunchScreen.storyboard */,
 				D04F938221B8DC190035BB48 /* Info.plist */,
 				D04F938321B8DC190035BB48 /* main.m */,
+				D04F938A21B8DE240035BB48 /* ClassFlowlayout.h */,
+				D04F938B21B8DE240035BB48 /* ClassFlowlayout.m */,
+				D04F938D21B91AE00035BB48 /* SingleFlowLayout.h */,
+				D04F938E21B91AE00035BB48 /* SingleFlowLayout.m */,
+				B0B48C8921B95123008C7B7E /* MultiSectionFlowLayout.h */,
+				B0B48C8A21B95123008C7B7E /* MultiSectionFlowLayout.m */,
 			);
 			path = "条件选择器";
 			sourceTree = "<group>";
@@ -141,6 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04F938F21B91AE00035BB48 /* SingleFlowLayout.m in Sources */,
+				B0B48C8B21B95123008C7B7E /* MultiSectionFlowLayout.m in Sources */,
+				D04F938C21B8DE240035BB48 /* ClassFlowlayout.m in Sources */,
 				D04F937921B8DC180035BB48 /* ViewController.m in Sources */,
 				D04F938421B8DC190035BB48 /* main.m in Sources */,
 				D04F937621B8DC180035BB48 /* AppDelegate.m in Sources */,
